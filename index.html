@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles/style.css" rel="stylesheet">
+  <title>Tip Calcuator</title>
+</head>
+<body>
+  <div id="container">
+    <h1>Lazy Tip Calculator</h1>
+    <div id="calculater">
+      <form>
+        <p>What was the total pre tax?</p>
+        <p>$ <input id="billAmount" type="text" placeholder="check total"></p>
+        <p>How was your service?</p>
+        <p>
+          <select id="servQual">
+            <option disabled selected value="0">Take your pick</option>
+            <option value="0.3">30% - Phenomenal</option>
+            <option value="0.25">25% - Great</option>
+            <option value="0.20">20% - Good</option>
+            <option value="0.15">15% - Decent</option>
+            <option value="0.05">5% - Poor</option>
+          </select>
+        </p>
+      </form>
+      <p>How many are splitting the bill?</p>
+      <p><input id="howMany" type="text" placeholder="How many?"> people</p>
+      <button type="button" id="calculate">Add it Up!</button>
+    </div>
+    <div id="tip">
+      <p><span id="tipAmount"><sup>$</sup>0.00</span></p>
+      <p><span id="totalTip"><sup>$</sup>0.00</span></p>
+      <p><span id="each"><sup>$</sup>0.00</span></p>
+
+
+
+    </div>
+    
+  </div>
+  <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>

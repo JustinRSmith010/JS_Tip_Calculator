@@ -1,0 +1,100 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: rgb(226, 247, 226);    
+}
+#container {
+    height: 600px;
+    width: 360px;
+    margin: 100px auto;
+    background: rgb(212, 253, 212);
+    border: 1.5px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 10px 70px;
+    font-size: 24px;
+    background-color:rgb(100, 182, 100);
+    border-bottom: 1px solid black;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+}
+p {
+    padding-left: 20px;
+}
+form input[type="text"] {
+    width: 100px;
+}
+input {
+    padding-left: 20px;
+}
+#billAmount {
+    font-size: 14px;
+    color: black;
+    background-color: rgb(226, 247, 226);
+    width: 60%;
+    padding: 5px 10px;
+}
+#billAmount:focus {
+    background: white;
+    border: 2px solid black;
+    outline: none;
+}
+#howMany {
+    font-size: 14px;
+    color: black;
+    background-color: rgb(226, 247, 226);
+    width: 60%;
+    padding: 5px 10px;
+}
+#howMany:focus {
+    background: white;
+    border: 2px solid black;
+    outline: none;
+}
+#servQual {
+    margin-left: 10px;
+    font-size: 14px;
+    background-color: rgb(226, 247, 226);
+    padding: 5px 10px;
+}
+button {
+    display: block;
+    margin: 30px auto;
+    background: rgb(100, 182, 100);;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+button:hover {
+    background-color: grey;
+    border-bottom-color: black;
+}
+button:active {
+    position: relative;
+    top: 2px;
+}  
+#tip sup{
+    font-size: 20px;
+    top: -18px;
+}
+#tip {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+    
+}
+#tip p {
+    padding-left: 0px;
+}
